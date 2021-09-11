@@ -7,14 +7,68 @@ body {
 }
 
 h1 {
-  color: #DB8A74;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 96px;
+  position: absolute;
+  width: 814px;
+  height: 163px;
+  left: 313px;
+  top: 83px;
 
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+  
+  color: #DB8A74;
   
 }
 
-.navbar {
-  font-family: 'Quicksand', sans-serif;
+.bio {
+  position: absolute;
+  width: 389px;
+  height: 351px;
+  left: 880px;
+  top: 400px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
   color: #12263A;
+
 }
+
+.navbar {
+
+  float: right; 
+  margin-right: 30px;
+  margin-top: 30px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #12263A;
+
+}
+
+.circle-photo {
+  position: absolute;
+  width: 506px;
+  height: 472px;
+  left: 214px;
+  top: 307px;
+  border-radius: 50%;
+
+  
+
+}
+
+
+
