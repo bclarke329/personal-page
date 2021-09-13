@@ -19,11 +19,12 @@ h1 {
   font-weight: 300;
   font-size: 96px;
   line-height: 120px;
-  text-align: center;
+  /* text-align: center; */
   
   color: #DB8A74;
   
 }
+
 
 .bio {
   position: absolute;
@@ -54,9 +55,13 @@ h1 {
   font-size: 30px;
   line-height: 37px;
   text-align: center;
-
   color: #12263A;
 
+}
+
+.active {
+  color: #8E4162;
+  
 }
 
 .circle-photo {
@@ -85,6 +90,36 @@ h1 {
   position: absolute;
   bottom: 10px;
   right: 50px;
+}
+
+.about {
+  position: absolute;
+  top: 300px;
+  left: 850px;
+  width: 500px;
+  font-family: Quicksand;
+  font-size:24px;
+  color: #12263A;
+}
+
+.likes {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  width: 350px;
+  font-family: Quicksand;
+  color: #12263A;
+  font-size: 20px;
+}
+
+.dislikes {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  width: 350px;
+  font-family: Quicksand;
+  color: #12263A;
+  font-size: 20px;
 }
 
 

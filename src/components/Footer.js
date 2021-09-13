@@ -6,8 +6,12 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <img src={LinkedIn} id="linkedin-icon" />
-                <img src={Dev} id="dev-icon"/>
+                <a href="https://www.linkedin.com/in/bessyclarke/"> 
+                    <img src={LinkedIn} id="linkedin-icon" />
+                </a>
+                <a href="https://dev.to/bclarke329"> 
+                    <img src={Dev} id="dev-icon"/>
+                </a>
                 <p id="footer-note">B.Clarke 2021</p>
             </div>
         );
