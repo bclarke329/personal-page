@@ -56,8 +56,15 @@ h1 {
   line-height: 37px;
   text-align: center;
   color: #12263A;
-
+  
 }
+
+.navigation-links {
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+
 
 .active {
   color: #8E4162;
