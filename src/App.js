@@ -5,6 +5,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +26,7 @@ function App() {
               <Route exact path="/contact" component={Contact} />
           </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

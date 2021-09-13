@@ -10,8 +10,9 @@ h1 {
   position: absolute;
   width: 814px;
   height: 163px;
-  left: 313px;
+  left: 50px;
   top: 83px;
+  margin-left: 0px;
 
   font-family: Quicksand;
   font-style: normal;
@@ -27,9 +28,9 @@ h1 {
 .bio {
   position: absolute;
   width: 389px;
-  height: 351px;
+  height: 400px;
   left: 880px;
-  top: 400px;
+  top: 350px;
 
   font-family: Quicksand;
   font-style: normal;
@@ -60,15 +61,30 @@ h1 {
 
 .circle-photo {
   position: absolute;
-  width: 506px;
-  height: 472px;
+  width: 500px;
+  height: 450px;
   left: 214px;
   top: 307px;
   border-radius: 50%;
-
-  
-
 }
 
+#linkedin-icon {
+  position: absolute;
+  width: 30px;
+  bottom: 10px;
+  left: 40px;
+}
+
+#dev-icon {
+  position: absolute;
+  width: 30px;
+  bottom: 10px;
+  left: 80px;
+}
+#footer-note {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
 
 
