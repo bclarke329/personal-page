@@ -138,4 +138,17 @@ h1 {
   font-size: 20px;
 }
 
+#tech-projects {
+  position: absolute;
+  top: 275px;
+  left: 300px;
+}
+
+#dermalog-info {
+  position: absolute;
+  top: 350px;
+  width: 550px;
+  left: 150px;
+}
+
 
