@@ -25,6 +25,15 @@ h1 {
   
 }
 
+#circle-headshot {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  height: 600px;
+  
+  
+}
+
 
 .bio {
   position: absolute;
