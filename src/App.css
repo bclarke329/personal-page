@@ -142,12 +142,14 @@ h1 {
   position: absolute;
   top: 275px;
   left: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 
-.brews-on-bayou {
-  position: absolute;
-  
+.video-grid {
+  display: inline-grid;
+  grid-gap: 50px
 }
 
 

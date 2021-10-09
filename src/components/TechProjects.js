@@ -3,7 +3,7 @@
 const TechProjects = () => {
    return(
        <div id="tech-projects">
-           
+           <h3>Technical Projects</h3>
            <p>DermaLog</p>
            <br />
            <p>Full Stack Ruby On Rails Project</p>
