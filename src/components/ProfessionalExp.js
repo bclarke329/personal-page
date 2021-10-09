@@ -1,7 +1,7 @@
 
 const ProfessionalExp = () => {
     return (
-        <div>
+        <div className="professional-exp">
             <h3>Professional Experience</h3>
             <p>Mop A Glow: Office Manager</p>
             <p>New Orleans, LA</p>
