@@ -25,6 +25,7 @@ h1 {
   
 }
 
+/* home screen css*/
 #circle-headshot {
   position: absolute;
   top: 250px;
@@ -33,7 +34,6 @@ h1 {
   
   
 }
-
 
 .bio {
   position: absolute;
@@ -146,12 +146,23 @@ h1 {
   height: 400px;
 }
 
+/* portfolio css*/
 
 .video-grid {
   display: inline-grid;
-  grid-gap: 50px
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  
+   
 }
 
+.port-grid {
+  position: relative;
+  top: 300px;
+  margin: 20px;
+  width: 400px;
+}
 
 
 
