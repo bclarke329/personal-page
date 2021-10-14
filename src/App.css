@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   background-color: #C5D8D1;
 }
@@ -80,14 +85,7 @@ h1 {
   
 }
 
-.circle-photo {
-  position: absolute;
-  width: 500px;
-  height: 450px;
-  left: 214px;
-  top: 307px;
-  border-radius: 50%;
-}
+/* footer css */
 
 #linkedin-icon {
   position: absolute;
@@ -108,6 +106,7 @@ h1 {
   right: 50px;
 }
 
+/* about page css */
 .about {
   position: absolute;
   top: 300px;
@@ -138,6 +137,8 @@ h1 {
   font-size: 20px;
 }
 
+/* resume page css */
+
 #tech-projects {
   position: absolute;
   top: 275px;
@@ -149,20 +150,23 @@ h1 {
 /* portfolio css*/
 
 .video-grid {
+ 
   display: inline-grid;
   grid-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
+
   
-  
-   
+
 }
 
-.port-grid {
+.video-grid div {
   position: relative;
-  top: 300px;
-  margin: 20px;
-  width: 400px;
+  top: 270px;
+  float: left;
+  padding: 10px;
 }
+
+
 
 
 

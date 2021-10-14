@@ -7,10 +7,10 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <a href="https://www.linkedin.com/in/bessyclarke/"> 
-                    <img src={LinkedIn} id="linkedin-icon" />
+                    <img src={LinkedIn} id="linkedin-icon" alt="linkedin-icon"/>
                 </a>
                 <a href="https://dev.to/bclarke329"> 
-                    <img src={Dev} id="dev-icon"/>
+                    <img src={Dev} id="dev-icon" alt="dev-icon"/>
                 </a>
                 <p id="footer-note">B.Clarke 2021</p>
             </div>
